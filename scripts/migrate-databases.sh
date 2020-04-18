@@ -60,7 +60,7 @@ function close_tunnel_at_exit() {
 trap close_tunnel_at_exit EXIT
 
 
-function wait_for_tunnel() {
+function wait_for_tunnel() { 
 
     set +e
 
